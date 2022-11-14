@@ -1,4 +1,5 @@
-const URL = "http://localhost:8080/CA2_backend_war_exploded";
+import { SERVER_URL } from "../../constants";
+const URL = SERVER_URL;
 
 function handleHttpErrors(res) {
     if (!res.ok) {
